@@ -1,0 +1,26 @@
+[package]
+name = "multi_send"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+
+tracing = "0.1"
+tracing-subscriber = { version = "0.3.5", features = ["env-filter"] }
+
+
+itertools = "0.10.0"
+near-units = "0.2.0"
+near-primitives = "0.17.0"
+
+workspaces = { git="https://github.com/near/near-workspaces-rs.git",  rev= "26ca5ae" }
+serde = "1.0.188"
+serde_json = "1.0.107"
+dirs = "3.0"
+
+xlsxwriter = "0.6.0"
+calamine = "0.22.1"

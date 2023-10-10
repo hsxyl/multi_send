@@ -1,0 +1,14 @@
+debug/
+target/
+
+bin/
+
+**/*.rs.bk
+.idea
+.env
+.DS_Store
+*.iml
+.vscode
+.VSCodeCounter
+/node_modules/
+/tmp/
